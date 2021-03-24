@@ -1,5 +1,5 @@
 name: A workflow for my hello World file
-on: [push, pull_request] 
+on: [push, merge] 
 jobs:
   build:
     name: Hello world action
@@ -9,6 +9,3 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Irvv17"
-branding:
-  icon: 'award'  
-  color: 'green'
