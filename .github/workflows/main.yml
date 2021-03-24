@@ -9,3 +9,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Irvv17"
+branding:
+  icon: 'award'  
+  color: 'green'
