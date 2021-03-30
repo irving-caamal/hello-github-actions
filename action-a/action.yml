@@ -8,10 +8,14 @@ inputs:
     required: true
     default: "World"
 
+outputs:
+  sum: # id of the output
+    description: 'The sum of the inputs'
+
 runs:
   using: "docker"
   image: "Dockerfile"
 
 branding:
-  icon: 'award'  
-  color: 'green'
+  icon: "bell"  
+  color: "red"
