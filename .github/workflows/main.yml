@@ -1,4 +1,7 @@
 name: A workflow for my hello World file
+branding:
+  icon: "bell"  
+  color: "red"
 on: [push, pull_request] 
 jobs:
   build:
@@ -9,4 +12,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Irvv17"
-          
+    branding:
+      icon: "bell"  
+      color: "red"
