@@ -1,7 +1,4 @@
 name: A workflow for my hello World file
-branding:
-  icon: "bell"  
-  color: "red"
 on: [push, pull_request] 
 jobs:
   build:
